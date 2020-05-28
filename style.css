@@ -12,6 +12,7 @@ body {
 }
 .info {
 	position: relative;
+	color: blue;
 }
 .info:hover .sub-info{
 	display: block;
@@ -22,13 +23,12 @@ body {
 	position: absolute;
 	top: 100%;
 	left: 0;
-	background-color: #6ffffc;
+	background-color: #AAA;
 	display: none;
 }
 /*-----------------------------*/
 .about {
 	position: relative;
-
 }
 
 .about:hover .sub-about{
@@ -41,13 +41,29 @@ body {
 	position: absolute;
 	top: 100%;
 	left: 0;
-	background-color: #6ffffc;
+	background-color: #BBB;
 	display: none;
 }
-
+/*-----------------------------*/
 a:link {
  	padding: 8px 18px;
+ 	color: red;
   	text-align: center;
   	text-decoration: none;
  	display: inline-block;
+}
+.menu {
+	position: relative;
+}
+.menu:hover .sub-menu{
+	display: block;
+}
+.sub-menu {
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #CCC;
+	display: none;
 }
