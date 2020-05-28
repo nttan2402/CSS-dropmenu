@@ -1,0 +1,53 @@
+body {
+	font-family: sans-serif;
+}
+.title {
+	display: flex;
+	padding: 0px;
+	list-style: none;
+}
+
+.title li:hover{
+	background-color: #6ffffc;
+}
+.info {
+	position: relative;
+}
+.info:hover .sub-info{
+	display: block;
+}
+.sub-info {
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #6ffffc;
+	display: none;
+}
+/*-----------------------------*/
+.about {
+	position: relative;
+
+}
+
+.about:hover .sub-about{
+	display: block;
+}
+
+.sub-about {
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #6ffffc;
+	display: none;
+}
+
+a:link {
+ 	padding: 8px 18px;
+  	text-align: center;
+  	text-decoration: none;
+ 	display: inline-block;
+}
